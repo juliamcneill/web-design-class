@@ -1,0 +1,108 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    text-align: center;
+    padding: 8px;
+}
+
+img {
+  width:400px;
+}
+
+#tumblrlogo {
+  width:40px;
+}
+
+body {
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  margin: 0 auto;
+  max-width: 70em;
+  height: 100%;
+  position: relative;
+}
+
+p {
+  font-size: 16px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #404040;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+h2 {
+  color: white;
+  background-color: black;
+  font-size: 18px;
+  padding: 10px;
+}
+
+p a:link{
+  color:grey;
+  text-decoration: none;
+}
+
+p a:hover{
+  color:grey;
+  text-decoration: underline;
+}
+
+p a:active{
+  color:grey;
+  text-decoration: none;
+}
+
+p a:visited{
+  color: grey;
+  text-decoration: none;
+}
+
+p a:focus{
+  color:grey;
+  text-decoration: none;
+}
+
+#lightswitch{
+  width : 1120px;
+  height : 50px;
+  align-content: center;
+  border: solid 1px black;
+  background: white;
+  text-align: center;
+}
+
+#monitor{
+  position 	: absolute;
+  top 	: 0px;
+  right 	: 0px;
+  border 	: solid 1px black;
+  background : white;
